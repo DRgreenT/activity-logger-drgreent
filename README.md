@@ -4,7 +4,7 @@
 
 A lightweight Cinnamon desklet that monitors active, idle, and system-off time. Get instant visual feedback on daily/weekly/monthly usage patterns and track trends over a full year.
 
-![Activity Logger screenshot](docs/screenshot.png)
+![Activity Logger screenshot](docs/Screenshot.png)
 
 ## Features
 
@@ -66,7 +66,7 @@ activity-logger@drgreent/
   activity-log.json #  Not committed (local only)
 
  docs/ # Documentation
- screenshot.png # UI preview
+ Screenshot.png # UI preview
 ```
 
 ## Privacy & Security
@@ -89,8 +89,18 @@ activity-logger@drgreent/
 The activity log (`data/activity-log.json`) stores daily totals:
 ```json
 {
-"2026-02-23": { "active": 7200, "idle": 28800, "off": 0, "lastUpdate": 1708695600 },
-"2026-02-24": { "active": 10800, "idle": 25200, "off": 0, "lastUpdate": 1708782000 }
+    "days": {
+        "2026-02-24": {
+        "activeSeconds": 24304,
+        "idleSeconds": 313,
+        "updatedAt": "2026-02-24T04:50:17.586Z"
+        },
+        "2026-02-23": {
+        "activeSeconds": 61198,
+        "idleSeconds": 17320,
+        "updatedAt": "2026-02-23T23:59:59.000Z"
+        }
+    }
 }
 ```
 
@@ -111,8 +121,10 @@ The activity log (`data/activity-log.json`) stores daily totals:
 ### Generate Report
 From the menu (⋮ button), choose "Report Issue" to:
 1. Describe the problem
-2. Optionally attach last 24 months of activity logs
+2. Optionally attach your activity logs
 3. Submit feedback
+
+Or contact me on GitHub
 
 ## Troubleshooting
 
