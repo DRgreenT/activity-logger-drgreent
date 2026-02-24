@@ -1,0 +1,85 @@
+.activity-desklet {
+  min-width: 240px;
+  padding: 12px;
+  border-radius: 10px;
+  background: rgba(0,0,0,0.35);
+}
+.activity-desklet StLabel {
+  font-family: Cantarell;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.activity-header {
+  padding-bottom: 0px;
+  width: 100%;
+}
+
+.activity-menu-button {
+  padding: 2px 8px;
+  font-family: Cantarell;
+  font-size: 18px;
+  font-weight: 700;
+  color: rgb(180, 180, 180);
+  background: transparent;
+  border-radius: 4px;
+}
+
+.activity-menu-button:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: rgb(220, 220, 220);
+}
+
+.activity-title {
+  font-family: Cantarell;
+  font-size: 18px;
+  font-weight: 700;
+  color: rgb(145, 145, 145);
+  padding-bottom: 0px;
+}
+
+.activity-section-title {
+  font-family: Cantarell;
+  font-size: 13px;
+  font-weight: 700;
+  color: rgb(180, 180, 180);
+}
+
+.activity-status {
+  font-weight: 700;
+}
+
+.activity-divider {
+  height: 1px;
+  margin-top: 6px;
+  margin-bottom: 6px;
+  background-color: rgba(255, 255, 255, 0.16);
+}
+
+.activity-charts-row {
+  margin-top: 8px;
+}
+
+.activity-chart-item {
+  min-width: 72px;
+  margin-right: 10px;
+}
+
+.activity-chart-title,
+.activity-chart-value {
+  font-family: Cantarell;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.activity-chart-title {
+  margin-bottom: 0;
+}
+
+.activity-chart-value {
+  margin-top: 0;
+}
+
+.activity-chart-canvas {
+  margin-top: 0px;
+}

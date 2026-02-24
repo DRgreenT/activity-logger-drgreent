@@ -1,0 +1,8 @@
+var COLOR_OFF = [0.90, 0.20, 0.20, 0.90];
+var COLOR_IDLE = [0.20, 0.60, 0.95, 0.95];
+var COLOR_ACTIVE = [0.20, 0.75, 0.35, 0.95];
+var COLOR_UNDEFINED = [0.5, 0.5, 0.5, 0.25];
+
+var IDLE_THRESHOLD_MS = 5 * 1000;
+var TICK_SECONDS = 1;
+var FLUSH_EVERY_SECONDS = 30;

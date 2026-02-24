@@ -1,0 +1,8 @@
+{
+  "uuid": "activity-logger@drgreent",
+  "name": "Activity Logger",
+  "description": "Tracks active usage time (keyboard/mouse activity detected, without logging content). Shows daily/weekly/monthly pie charts and yearly trend line.",
+  "icon": "icon.png",
+  "version": 1,
+  "max-instances": 1
+}

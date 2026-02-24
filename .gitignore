@@ -1,0 +1,23 @@
+# Runtime data (generated locally)
+data/activity-log.json
+!data/.gitkeep
+
+# Logs
+*.log
+
+# Temporary / backup files
+*~
+*.swp
+*.swo
+
+# OS artifacts
+.DS_Store
+Thumbs.db
+
+# Local editor/workspace settings
+.vscode/
+.idea/
+
+# Node stuff (if ever used)
+node_modules/
+.env
