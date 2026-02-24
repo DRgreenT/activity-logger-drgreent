@@ -38,7 +38,7 @@ sudo dnf install xprintidle
 ```
 
 ### Add the Desklet
-1. Move the folder to `~/.local/share/cinnamon/desklets/activity-logger@cinnamon/`
+1. Move the folder to `~/.local/share/cinnamon/desklets/activity-logger@drgreent/`
 2. Open Cinnamon Settings → Desklets
 3. Find "Activity Logger" and click the `+` to add it
 4. If xprintidle is missing, the desklet shows instructions to install it
@@ -46,13 +46,12 @@ sudo dnf install xprintidle
 ## Project Structure
 
 ```
-activity-logger@cinnamon/
+activity-logger@drgreent/
  desklet.js # Main entry point & UI orchestration
  metadata.json # Cinnamon desklet manifest
  stylesheet.css # UI styling
  README.md # This file
  LICENSE # MIT license
- CONTRIBUTING.md # Contributor guidelines
 
  src/ # Modular source code
   constants.js # Colors & timing config
@@ -67,8 +66,6 @@ activity-logger@cinnamon/
   activity-log.json #  Not committed (local only)
 
  docs/ # Documentation
- DOCUMENTATION.md # Technical deep-dive
- PUBLISHING.md # Release checklist
  screenshot.png # UI preview
 ```
 
